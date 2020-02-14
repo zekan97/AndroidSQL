@@ -1,4 +1,4 @@
-package com.example.seguros;
+package com.dam.seguros;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.example.seguros", appContext.getPackageName());
+        assertEquals("com.dam.seguros", appContext.getPackageName());
     }
 }

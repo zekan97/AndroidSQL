@@ -1,4 +1,4 @@
-package com.example.seguros;
+package com.dam.seguros;
 
 import androidx.appcompat.app.AppCompatActivity;
 
