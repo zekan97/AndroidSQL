@@ -1,5 +1,6 @@
 package com.example.seguros_android.datos;
 
+
 public class Vendedor {
     public String DNI, nombre, apllidos, telefono, password;
     public int es_admin, activo;
@@ -14,6 +15,7 @@ public class Vendedor {
         this.es_admin = es_admin;
         this.activo = activo;
     }
+
 
     //Getters y setters
     public String getDNI() {

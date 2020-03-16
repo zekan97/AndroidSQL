@@ -1,10 +1,12 @@
-package com.example.seguros_android;
+package com.example.seguros_android.actividades;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.seguros_android.R;
 
 public class ConfigSeguro extends AppCompatActivity {
 

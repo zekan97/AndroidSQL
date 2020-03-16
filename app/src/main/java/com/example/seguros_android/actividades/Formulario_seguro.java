@@ -1,15 +1,17 @@
-package com.example.seguros_android;
+package com.example.seguros_android.actividades;
 
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Formulario extends AppCompatActivity {
+import com.example.seguros_android.R;
+
+public class Formulario_seguro extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.formulario);
+        setContentView(R.layout.formulaio_seguro);
     }
 
 }

@@ -7,25 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6361f1c-5e3e-4695-965b-2eaee9107ccb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/datos/MyOpenHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/datos/Vendedor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/configAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/ConfigAdmin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/configSeguro.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/ConfigSeguro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/formulario.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/Formulario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/formulario_seguro.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/Formulario_seguro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/seguro_menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/Seguro_menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/seguro_menu_admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/Seguro_menu_admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/addUser.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/adduser.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/ConfigAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/actividades/ConfigAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/ConfigSeguro.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/actividades/ConfigSeguro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/Formulario.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/actividades/Formulario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/Formulario_seguro.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/actividades/Formulario_seguro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/actividades/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/Seguro_menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/actividades/Seguro_menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/Seguro_menu_admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/actividades/Seguro_menu_admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/datos/Vendedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/datos/Vendedor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/config_admin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/config_admin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/config_seguro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/config_seguro.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/seguro_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/seguro_menu.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/seguro_menu_admin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/seguro_menu_admin.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,11 +51,6 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="seguros_android" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="seguros_android" type="f1a62948:ProjectNode" />
-                <item name="app" type="2d1252cf:ModuleNode" />
               </path>
             </expand>
             <select />
@@ -115,7 +102,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Android App.MainActivity">
+  <component name="RunManager" selected="Android App.AndroidSQL-app">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -220,7 +207,7 @@
         <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
       </Profilers>
       <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="com.example.seguros_android.MainActivity" />
+      <option name="ACTIVITY_CLASS" value="com.example.seguros_android.actividades.MainActivity" />
       <method v="2">
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
@@ -276,6 +263,25 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AndroidSQL [testDebugUnitTest]" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="testDebugUnitTest" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Android App.MainActivity" />
@@ -307,5 +313,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/seguros_android$AndroidSQL__testDebugUnitTest_.ic" NAME="AndroidSQL [testDebugUnitTest] Coverage Results" MODIFIED="1584366539810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
