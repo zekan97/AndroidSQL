@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:onClick="onClick"
     tools:context=".MainActivity">
 
     <TextView
@@ -51,6 +52,7 @@
         android:id="@+id/btn_enviaLogin"
         android:layout_width="113dp"
         android:layout_height="55dp"
+        android:onClick="onClick"
         android:text="Acceder"
         android:textColor="#000000"
         android:textSize="20sp"

@@ -67,18 +67,20 @@
         android:id="@+id/img_addEmpleado"
         android:layout_width="150dp"
         android:layout_height="187dp"
+        android:onClick="cargarConfigurarAdmin"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.831"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.895"
-        app:srcCompat="@drawable/addUser" />
+        app:srcCompat="@drawable/adduser" />
 
     <ImageView
         android:id="@+id/img_verSeguro"
         android:layout_width="150dp"
         android:layout_height="187dp"
+        android:onClick="cargarSeguros"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.134"
@@ -90,6 +92,7 @@
         android:id="@+id/img_verEmpleado"
         android:layout_width="150dp"
         android:layout_height="187dp"
+        android:onClick="cargarPantallasClientes"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.831"
@@ -101,6 +104,7 @@
         android:id="@+id/img_addSeguro"
         android:layout_width="150dp"
         android:layout_height="187dp"
+        android:onClick="cargarConfigurarSeguro"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.134"
