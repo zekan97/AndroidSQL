@@ -10,37 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6361f1c-5e3e-4695-965b-2eaee9107ccb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/actividades/AdministrarClientes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/actividades/FormularioCrearCliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/actividades/FormularioEliminarClientes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/administrar_clientes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/formulario_crear_cliente.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/formulario_eliminar_empleado.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/actividades/ConfigAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/actividades/AdministrarEmpleados.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/actividades/ConfigSeguro.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/actividades/ConfigSeguro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/actividades/Formulario.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/actividades/FormularioCrearEmpleado.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/actividades/Formulario_seguro.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/actividades/FormularioCrearSeguro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/actividades/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/actividades/LoginEmpleados.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/actividades/Seguro_menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/actividades/MenuEmpleadoNoAdmin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/actividades/Seguro_menu_admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/actividades/MenuEmpleadoAdmin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/actividades/eliminar_empleados.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/actividades/FormularioEliminarEmpleados.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/datos/MyOpenHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/datos/MyOpenHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/config_admin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/administrar_empleados.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/eliminar_empleado.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/formulario_eliminar_clientes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/formulaio_seguro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/formulario_crear_seguro.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/formulario.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/formulario_crear_empleado.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/seguro_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/menu_empleado_no_admin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/seguro_menu_admin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/menu_empleado_admin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/actividades/LoginEmpleados.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/actividades/LoginEmpleados.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

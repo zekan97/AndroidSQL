@@ -155,15 +155,6 @@ public class LoginEmpleados extends AppCompatActivity {
         cv2.put("activo", 1);
         cv2.put("password", "1234");
         db.insert("vendedores", null, cv2);
-
-        ContentValues cv3 = new ContentValues();
-        cv2.put("DNI", "22222222P");
-        cv2.put("nombre", "Juan");
-        cv2.put("apellidos", "Jimenez");
-        cv2.put("telefono", "674434465");
-        cv2.put("es_admin", 0);
-        cv2.put("activo", 1);
-        cv2.put("password", "1234");
-        db.insert("vendedores", null, cv2);
+        
     }
 }
