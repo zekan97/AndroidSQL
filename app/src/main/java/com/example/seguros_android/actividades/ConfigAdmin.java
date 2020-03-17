@@ -20,4 +20,9 @@ public class ConfigAdmin extends AppCompatActivity {
         Intent intent = new Intent(ConfigAdmin.this, Formulario.class);
         startActivity(intent);
     }
+
+    public void borrarEmpleado(View v) {
+        Intent intent = new Intent(ConfigAdmin.this, eliminar_empleados.class);
+        startActivity(intent);
+    }
 }

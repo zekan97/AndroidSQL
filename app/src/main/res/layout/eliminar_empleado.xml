@@ -52,6 +52,7 @@
         android:id="@+id/btnDeleteUser"
         android:layout_width="118dp"
         android:layout_height="54dp"
+        android:onClick="eliminar"
         android:text="Eliminar"
         android:textColor="#000000"
         android:textSize="20sp"
@@ -64,9 +65,9 @@
 
     <TextView
         android:id="@+id/textoDelCliente"
-        android:layout_width="161dp"
-        android:layout_height="31dp"
-        android:text="Borrar Cliente"
+        android:layout_width="195dp"
+        android:layout_height="39dp"
+        android:text="Borrar Empleado"
         android:textColor="#000000"
         android:textSize="25sp"
         android:textStyle="bold"

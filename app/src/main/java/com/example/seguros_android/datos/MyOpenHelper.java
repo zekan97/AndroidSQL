@@ -20,7 +20,7 @@ public class MyOpenHelper extends SQLiteOpenHelper {
 
     //Tabla de vendedores
     private static final String VENDEDORES_TABLE_CREATE = "CREATE TABLE `vendedores` (" +
-            "  `DNI` varchar(9) NOT NULL," +
+            "  `DNI` varchar(9) NOT NULL PRIMARY KEY," +
             "  `nombre` varchar(30) NOT NULL," +
             "  `apellidos` varchar(30) NOT NULL," +
             "  `telefono` varchar(11) NOT NULL," +
@@ -30,7 +30,7 @@ public class MyOpenHelper extends SQLiteOpenHelper {
             ")";
 
     private static final String CLIENTES_TABLE_CREATE = "CREATE TABLE `clientes` (" +
-            "  `DNI` varchar(9) NOT NULL,"+
+            "  `DNI` varchar(9) NOT NULL PRIMARY KEY,"+
             "  `nombre` varchar(20) NOT NULL,"+
             "  `apellidos` varchar(50) NOT NULL,"+
             "  `telefono` varchar(15) NOT NULL"+
@@ -43,7 +43,7 @@ public class MyOpenHelper extends SQLiteOpenHelper {
             ")";
 
     private static final String SEGURO_TABLE_CREATE = "CREATE TABLE `seguros` (" +
-            "  `id_seguro` int(11) NOT NULL," +
+            "  `id_seguro` int(11) NOT NULL PRIMARY KEY," +
             "  `nombre` varchar(50) NOT NULL," +
             "  `descripcion` varchar(255) NOT NULL," +
             "  `precio` double NOT NULL" +

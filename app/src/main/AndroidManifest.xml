@@ -22,6 +22,7 @@
         <activity android:name=".actividades.Formulario_seguro"></activity>
         <activity android:name=".actividades.ConfigAdmin"></activity>
         <activity android:name=".actividades.ConfigSeguro"></activity>
+        <activity android:name=".actividades.eliminar_empleados"></activity>
 
     </application>
 
