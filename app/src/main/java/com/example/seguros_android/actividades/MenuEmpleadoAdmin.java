@@ -27,7 +27,7 @@ public class MenuEmpleadoAdmin extends AppCompatActivity {
     }
 
     public void cargarConfigurarSeguro(View v) {
-        Intent intent = new Intent(MenuEmpleadoAdmin.this, ConfigSeguro.class);
+        Intent intent = new Intent(MenuEmpleadoAdmin.this, AdministrarSeguro.class);
         startActivity(intent);
     }
 

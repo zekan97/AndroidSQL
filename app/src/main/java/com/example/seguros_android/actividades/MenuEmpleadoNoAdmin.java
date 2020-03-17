@@ -17,12 +17,12 @@ public class MenuEmpleadoNoAdmin extends AppCompatActivity {
     }
 
     public void cargarConfigSeguros(View v) {
-        Intent intent = new Intent(MenuEmpleadoNoAdmin.this, ConfigSeguro.class);
+        Intent intent = new Intent(MenuEmpleadoNoAdmin.this, AdministrarSeguro.class);
         startActivity(intent);
     }
 
     public void cargarFormulario(View v) {
-        Intent intent = new Intent(MenuEmpleadoNoAdmin.this, ConfigSeguro.class);
+        Intent intent = new Intent(MenuEmpleadoNoAdmin.this, AdministrarSeguro.class);
         startActivity(intent);
     }
 

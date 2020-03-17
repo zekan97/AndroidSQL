@@ -8,16 +8,16 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.seguros_android.R;
 
-public class ConfigSeguro extends AppCompatActivity {
+public class AdministrarSeguro extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.config_seguro);
+        setContentView(R.layout.administrar_seguro);
     }
 
     public void cargarConfigurarSeguro(View v) {
-        Intent intent = new Intent(ConfigSeguro.this, FormularioCrearSeguro.class);
+        Intent intent = new Intent(AdministrarSeguro.this, FormularioCrearSeguro.class);
         startActivity(intent);
     }
 }

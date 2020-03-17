@@ -11,7 +11,15 @@
   <component name="ChangeListManager">
     <list default="true" id="a6361f1c-5e3e-4695-965b-2eaee9107ccb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/actividades/ConfigSeguro.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/actividades/AdministrarSeguro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/actividades/FormularioCrearSeguro.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/actividades/FormularioCrearSeguro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/actividades/LoginEmpleados.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/actividades/LoginEmpleados.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/actividades/MenuEmpleadoAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/actividades/MenuEmpleadoAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/actividades/MenuEmpleadoNoAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/actividades/MenuEmpleadoNoAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/datos/MyOpenHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/seguros_android/datos/MyOpenHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/config_seguro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/administrar_seguro.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/formulario_crear_seguro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/formulario_crear_seguro.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

@@ -3,10 +3,13 @@ package com.example.seguros_android.actividades;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.ContentValues;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
+import android.os.Parcelable;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -17,7 +20,8 @@ import com.example.seguros_android.datos.MyOpenHelper;
 public class LoginEmpleados extends AppCompatActivity {
     EditText usuario, pass;
     SQLiteDatabase db;
-    String usuarioStr, passStr;
+    String passStr;
+    public String DNIUsuario;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,19 +40,26 @@ public class LoginEmpleados extends AppCompatActivity {
     }
 
     public void onClick(View view) {
-        usuarioStr = usuario.getText().toString();
+        DNIUsuario = usuario.getText().toString();
         passStr = pass.getText().toString();
-        if (estaActivo(usuarioStr, passStr)) {
-            if (Exists(usuarioStr, passStr)) {
-                if (es_administrador(usuarioStr, passStr)) {
-                    Toast.makeText(view.getContext(), "Bienvenido " + usuarioStr, Toast.LENGTH_SHORT).show();
+        if (estaActivo(DNIUsuario, passStr)) {
+            if (Exists(DNIUsuario, passStr)) {
+                if (es_administrador(DNIUsuario, passStr)) {
+                    Toast.makeText(view.getContext(), "Bienvenido " + DNIUsuario, Toast.LENGTH_SHORT).show();
                     loginOkAdmin();
                 } else {
-                    Toast.makeText(view.getContext(), "Bienvenido " + usuarioStr, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(view.getContext(), "Bienvenido " + DNIUsuario, Toast.LENGTH_SHORT).show();
+
+                    SharedPreferences prefs = getSharedPreferences("CuentaUsuario", Context.MODE_PRIVATE);
+                    SharedPreferences.Editor editor = prefs.edit();
+                    editor.putString("dni_empleado", DNIUsuario);
+                    editor.commit();
+
+
                     loginOkTrabajador();
                 }
             } else
-                Toast.makeText(view.getContext(), "El usuario no existe: " + usuarioStr, Toast.LENGTH_SHORT).show();
+                Toast.makeText(view.getContext(), "El usuario no existe: " + DNIUsuario, Toast.LENGTH_SHORT).show();
         } else {
             Toast.makeText(view.getContext(), "Este usuario no esta activo", Toast.LENGTH_SHORT).show();
         }
@@ -62,6 +73,7 @@ public class LoginEmpleados extends AppCompatActivity {
 
     private void loginOkTrabajador() {
         Intent intent = new Intent(LoginEmpleados.this, MenuEmpleadoNoAdmin.class);
+        intent.putExtra("dni_vendedor", DNIUsuario);
         startActivity(intent);
     }
 
@@ -136,15 +148,15 @@ public class LoginEmpleados extends AppCompatActivity {
      */
 
     public void insertar() {
-        ContentValues cv3 = new ContentValues();
-        cv3.put("DNI", "33333333M");
-        cv3.put("nombre", "Kiko");
-        cv3.put("apellidos", "Jimenez");
-        cv3.put("telefono", "674434565");
-        cv3.put("es_admin", 1);
-        cv3.put("activo", 1);
-        cv3.put("password", "1234");
-        db.insert("vendedores", null, cv3);
+        ContentValues cv1 = new ContentValues();
+        cv1.put("DNI", "33333333M");
+        cv1.put("nombre", "Kiko");
+        cv1.put("apellidos", "Jimenez");
+        cv1.put("telefono", "674434565");
+        cv1.put("es_admin", 1);
+        cv1.put("activo", 1);
+        cv1.put("password", "1234");
+        db.insert("vendedores", null, cv1);
 
         ContentValues cv2 = new ContentValues();
         cv2.put("DNI", "22222222P");
@@ -155,6 +167,35 @@ public class LoginEmpleados extends AppCompatActivity {
         cv2.put("activo", 1);
         cv2.put("password", "1234");
         db.insert("vendedores", null, cv2);
-        
+
+        ContentValues cv3 = new ContentValues();
+        cv3.put("id_seguro", 1);
+        cv3.put("nombre", "Coche Terceros");
+        cv3.put("descripcion", "Este es un seguro a terceros, que cubre los daños ocasionados a otros vehiculos durante un accidente");
+        cv3.put("precio", 250.0);
+        db.insert("seguros", null, cv3);
+
+        ContentValues cv4 = new ContentValues();
+        cv4.put("id_seguro", 2);
+        cv4.put("nombre", "Coche Todo riesgo");
+        cv4.put("descripcion", "Este es un seguro de cochde a todo riesgo que cubre los daños ocasionados a otros vehiculos y reparacion de desperfectos al propio coche");
+        cv4.put("precio", 650.0);
+        db.insert("seguros", null, cv4);
+
+        ContentValues cv5 = new ContentValues();
+        cv5.put("id_seguro", 3);
+        cv5.put("nombre", "Casa + Coche Todo riesgo");
+        cv5.put("descripcion", "Este es un seguro de casa que incluye un seguro todo riesgo para coches con todas sus ventajas añadidas");
+        cv5.put("precio", 1250.0);
+        db.insert("seguros", null, cv5);
+
+        ContentValues cv6 = new ContentValues();
+        cv6.put("DNI", "X9197650L");
+        cv6.put("nombre", "Robert");
+        cv6.put("apellidos", "Marian");
+        cv6.put("activo", 1);
+        cv6.put("telefono", "642216897");
+        db.insert("clientes", null, cv6);
+
     }
 }

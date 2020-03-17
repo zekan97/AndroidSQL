@@ -23,7 +23,7 @@
         <activity android:name=".actividades.FormularioCrearEmpleado" />
         <activity android:name=".actividades.FormularioCrearSeguro" />
         <activity android:name=".actividades.AdministrarEmpleados" />
-        <activity android:name=".actividades.ConfigSeguro" />
+        <activity android:name=".actividades.AdministrarSeguro" />
         <activity android:name=".actividades.FormularioEliminarEmpleados" />
         <activity android:name=".actividades.FormularioEliminarClientes" />
         <activity android:name=".actividades.FormularioCrearCliente" />
