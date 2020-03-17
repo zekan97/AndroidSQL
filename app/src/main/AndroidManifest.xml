@@ -9,21 +9,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".actividades.MainActivity">
+
+        <activity android:name=".actividades.AdministrarClientes" />
+        <activity android:name=".actividades.LoginEmpleados">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".actividades.Seguro_menu_admin"></activity>
-        <activity android:name=".actividades.Seguro_menu"></activity>
-        <activity android:name=".actividades.Formulario"></activity>
-        <activity android:name=".actividades.Formulario_seguro"></activity>
-        <activity android:name=".actividades.ConfigAdmin"></activity>
-        <activity android:name=".actividades.ConfigSeguro"></activity>
-        <activity android:name=".actividades.eliminar_empleados"></activity>
-
+        <activity android:name=".actividades.MenuEmpleadoAdmin" />
+        <activity android:name=".actividades.MenuEmpleadoNoAdmin" />
+        <activity android:name=".actividades.FormularioCrearEmpleado" />
+        <activity android:name=".actividades.FormularioCrearSeguro" />
+        <activity android:name=".actividades.AdministrarEmpleados" />
+        <activity android:name=".actividades.ConfigSeguro" />
+        <activity android:name=".actividades.FormularioEliminarEmpleados" />
+        <activity android:name=".actividades.FormularioEliminarClientes" />
+        <activity android:name=".actividades.FormularioCrearCliente" />
     </application>
 
 </manifest>

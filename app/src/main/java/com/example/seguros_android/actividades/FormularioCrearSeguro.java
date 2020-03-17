@@ -6,12 +6,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.seguros_android.R;
 
-public class Formulario_seguro extends AppCompatActivity {
+public class FormularioCrearSeguro extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.formulaio_seguro);
+        setContentView(R.layout.formulario_crear_seguro);
     }
 
 }

@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/AndroidSQL-app.iml" filepath="$PROJECT_DIR$/app/AndroidSQL-app.iml" group="seguros_android/app" />
+      <module fileurl="file://$PROJECT_DIR$/AndroidSQL-seguros_android.iml" filepath="$PROJECT_DIR$/AndroidSQL-seguros_android.iml" group="seguros_android" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/seguros_android.iml" filepath="$PROJECT_DIR$/seguros_android.iml" />
     </modules>

@@ -8,21 +8,21 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.seguros_android.R;
 
-public class Seguro_menu extends AppCompatActivity {
+public class AdministrarEmpleados extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.seguro_menu);
+        setContentView(R.layout.administrar_empleados);
     }
 
-    public void cargarConfigSeguros(View v) {
-        Intent intent = new Intent(Seguro_menu.this, ConfigSeguro.class);
+    public void cargarConfigurarSeguro(View v) {
+        Intent intent = new Intent(AdministrarEmpleados.this, FormularioCrearEmpleado.class);
         startActivity(intent);
     }
 
-    public void cargarFormulario(View v) {
-        Intent intent = new Intent(Seguro_menu.this, ConfigSeguro.class);
+    public void borrarEmpleado(View v) {
+        Intent intent = new Intent(AdministrarEmpleados.this, FormularioEliminarEmpleados.class);
         startActivity(intent);
     }
 }

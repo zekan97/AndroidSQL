@@ -14,7 +14,7 @@ import android.widget.Toast;
 import com.example.seguros_android.R;
 import com.example.seguros_android.datos.MyOpenHelper;
 
-public class MainActivity extends AppCompatActivity {
+public class LoginEmpleados extends AppCompatActivity {
     EditText usuario, pass;
     SQLiteDatabase db;
     String usuarioStr, passStr;
@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
      */
 
     private void loginOkTrabajador() {
-        Intent intent = new Intent(MainActivity.this, Seguro_menu.class);
+        Intent intent = new Intent(LoginEmpleados.this, MenuEmpleadoNoAdmin.class);
         startActivity(intent);
     }
 
@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
      */
 
     private void loginOkAdmin() {
-        Intent intent = new Intent(MainActivity.this, Seguro_menu_admin.class);
+        Intent intent = new Intent(LoginEmpleados.this, MenuEmpleadoAdmin.class);
         startActivity(intent);
     }
 
@@ -156,6 +156,14 @@ public class MainActivity extends AppCompatActivity {
         cv2.put("password", "1234");
         db.insert("vendedores", null, cv2);
 
-
+        ContentValues cv3 = new ContentValues();
+        cv2.put("DNI", "22222222P");
+        cv2.put("nombre", "Juan");
+        cv2.put("apellidos", "Jimenez");
+        cv2.put("telefono", "674434465");
+        cv2.put("es_admin", 0);
+        cv2.put("activo", 1);
+        cv2.put("password", "1234");
+        db.insert("vendedores", null, cv2);
     }
 }

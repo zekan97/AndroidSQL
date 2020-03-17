@@ -8,31 +8,31 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.seguros_android.R;
 
-public class Seguro_menu_admin extends AppCompatActivity {
+public class MenuEmpleadoAdmin extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.seguro_menu_admin);
+        setContentView(R.layout.menu_empleado_admin);
     }
 
     public void cargarSeguros(View v) {
-        Intent intent = new Intent(Seguro_menu_admin.this, Seguro_menu.class);
+        Intent intent = new Intent(MenuEmpleadoAdmin.this, MenuEmpleadoNoAdmin.class);
         startActivity(intent);
     }
 
     public void cargarConfigurarAdmin(View v) {
-        Intent intent = new Intent(Seguro_menu_admin.this, ConfigAdmin.class);
+        Intent intent = new Intent(MenuEmpleadoAdmin.this, AdministrarEmpleados.class);
         startActivity(intent);
     }
 
     public void cargarConfigurarSeguro(View v) {
-        Intent intent = new Intent(Seguro_menu_admin.this, ConfigSeguro.class);
+        Intent intent = new Intent(MenuEmpleadoAdmin.this, ConfigSeguro.class);
         startActivity(intent);
     }
 
     public void cargarPantallasClientes(View v) {
-        Intent intent = new Intent(Seguro_menu_admin.this, Seguro_menu.class);
+        Intent intent = new Intent(MenuEmpleadoAdmin.this, MenuEmpleadoNoAdmin.class);
         startActivity(intent);
     }
 }

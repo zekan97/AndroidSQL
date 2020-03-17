@@ -33,6 +33,7 @@ public class MyOpenHelper extends SQLiteOpenHelper {
             "  `DNI` varchar(9) NOT NULL PRIMARY KEY,"+
             "  `nombre` varchar(20) NOT NULL,"+
             "  `apellidos` varchar(50) NOT NULL,"+
+            "  `activo` tinyint(1) NOT NULL," +
             "  `telefono` varchar(15) NOT NULL"+
             ")";
 

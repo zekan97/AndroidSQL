@@ -17,7 +17,7 @@ public class ConfigSeguro extends AppCompatActivity {
     }
 
     public void cargarConfigurarSeguro(View v) {
-        Intent intent = new Intent(ConfigSeguro.this, Formulario_seguro.class);
+        Intent intent = new Intent(ConfigSeguro.this, FormularioCrearSeguro.class);
         startActivity(intent);
     }
 }

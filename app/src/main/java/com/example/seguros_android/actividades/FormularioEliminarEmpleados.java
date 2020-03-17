@@ -1,6 +1,5 @@
 package com.example.seguros_android.actividades;
 
-import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
@@ -13,14 +12,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.seguros_android.R;
 import com.example.seguros_android.datos.MyOpenHelper;
 
-public class eliminar_empleados extends AppCompatActivity {
+public class FormularioEliminarEmpleados extends AppCompatActivity {
 
     SQLiteDatabase db;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.eliminar_empleado);
+        setContentView(R.layout.formulario_eliminar_empleado);
         MyOpenHelper dbHelper = new MyOpenHelper(this);
         db = dbHelper.getWritableDatabase();
 
